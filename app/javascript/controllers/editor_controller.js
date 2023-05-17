@@ -1,5 +1,6 @@
 import { Controller } from "@hotwired/stimulus"
 import EditorJS from "@editorjs/editorjs";
+import Paragraph from "@editorjs/paragraph"
 
 // Connects to data-controller="editor"
 export default class extends Controller {
